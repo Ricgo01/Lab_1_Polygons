@@ -1,7 +1,7 @@
 use raylib::prelude::*;
 use crate::framebuffer::Framebuffer;
 use crate::fillpolygon::fill_polygon;
-use crate::poligon::draw_poligon;
+use crate::polygon::draw_poligon;
 pub fn polygon_1(
     framebuffer: &mut Framebuffer,
 ) {
